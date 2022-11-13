@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    background-color: ghostwhite; 
+}
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: 1px solid navy;
+    
+}
+#hlava{
+    height: 100px;
+    width: 100%;
+    background: #ecf5fe url("playstation3.jpg") no-repeat;               
+}
+.neobtekat{
+    clear: both;
+}
+#pata{
+    height: 30px;
+    width: 100%;
+    padding-top:4px;
+    border: 1px solid #444;
+    background-color: #ecf5fe;
+    text-align: center;
+    border-radius: 5px;
+}
+img{
+    width: 250px;
+    
+}
+.uzky{
+    width: 200px; 
+    cursor: pointer;
+    
+    
+}
+.aktualni{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.siroky{
+    width:1000px;
+    padding:1em;
+    text-align: justify;
+    
+}
+.hry{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    box-shadow: 1px 1px 4px black;
+}
+h1{
+    text-decoration: underline;
+    color: black;
+    text-transform: uppercase;
+    cursor: default;
+    font-size: 225%;
+    font-weight: 900;
+    text-shadow:  2px 2px 1px lightblue;
+}
+h1:hover{
+    color: navy;
+    /*text-shadow:  2px 2px 7px grey;*/
+}
+h2:hover{
+    color: navy;
+    text-shadow:  2px 2px 50px grey;
+}
+h2{
+    cursor: default;
+    text-align: left;
+}
+
+.siroky a{
+    text-decoration: none;
+    color: navy;
+}
+.uzky a{
+    display: block;
+    text-decoration: none;
+    color: navy;
+    background-color: #ecf5fe;
+    padding: 0.5em;
+    padding-right: 50px;
+    margin: 2px;
+    border: 1px solid black;
+    border-left: 3px solid navy;
+    border-radius: 5px;
+    
+    
+    
+}
+.uzky a:hover{
+    background-color: lightskyblue;
+    color: black;
+    border: 1px solid darkslateblue;
+    border-left: 3px solid navy;
+    opacity: 0.8;
+    font-weight: bold;
+    
+    
+    
+}
+.uzky ul{
+    list-style-type: none;               
+    padding-left: 0;
+    position: fixed;
+    /*width: 15%;*/
+    flex-basis: 25%;
+    flex-shrink: 0;
+    
+}
+.uzky ul:hover{
+    list-style-type: none;               
+    padding-left: 0;
+    position: fixed;
+   /* width: 15%;*/
+    flex-basis: 25%;
+    flex-shrink: 0;
+    
+}
+
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nejlepší hry pro PlayStation 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="muj_styl1.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="hlava">             
+            </div>
+            <div class="neobtekat"></div>
+            <div class="uzky">
+                <ul>
+                    <li class="aktualni"><a href="home.html">Domovská stránka</a></li>
+                    <li><a href="akcni.html">Akční</a></li>
+                    <li><a href="strategie.html">Strategie</a></li>
+                    <li><a href="rpg.html">RPG</a></li>
+                    <li><a href="zavodni.html">Závodní</a></li>
+                    <li><a href="sportovni.html">Sportovní</a></li>
+                </ul> 
+            </div>
+            <div class="siroky">
+                <h1>Nejlepší hry pro <a href="https://www.playstation.com/">PlayStation 4</a></h1>
+                <h2>Co to je PlayStation 4?</h2>
+                <p><b>PlayStation 4</b> je herní konzole od japonské společnosti <a href="https://www.sony.net/"><b>Sony Interactive Entertainment</b></a>, výrobu zajišťuje společnost Foxconn Technology Group. Konzole byla oznámena jako nástupce PlayStationu 3 během konference svolané 20. února 2013. Prodej konzole oficiálně začal 15. listopadu 2013 v Severní Americe, v Česku byl prodej zahájen 13. prosince 2013. PlayStation 4 patří již do 8. generace herních konzolí spolu s konkurenčními konzolemi jako je Nintendo Wii U a Microsoft Xbox One. Jde o druhou nejprodávanější herní konzoli v historii po PS2.</p>
+                <p>Společnost Sony při návrhu PS4 upustila od komplikované architektury PlayStationu 3, založené na procesoru Cell. U PS4 tak je použit model běžný u PC, který představuje zejména osmijádrové APU od společnosti AMD, jehož grafická část u základního modelu dosahuje výkonu 1,84 TeraFLOPs a u modelu PlayStation 4 Pro dosahuje grafická část výkon 4,2 TeraFLOPs</p>
+                <p>Sony u své v pořadí čtvrté konzole má v úmyslu zaměření na sociální hraní díky tlačítku share, který se nachází na ovladači DualShock 4. Při jeho stisknutí začnete streamovat Vašim přátelům in-game obraz hry, kterou aktuálně hrajete nebo naopak. Konzole umožňuje propojení se službami či zařízeními následujícími metodami: Gaikai, herní služba postavena na cloudu, která umožňuje streamovat videoherní obsah; PlayStation App, program navržený pro PS4, který pomocí chytrých telefonů nebo tabletů umožní druhý obrazový výstup a PlayStation Vita, která může sloužit jako ovladač konzole díky vlastnosti Remote Play. K Playstation 4 Pro je navíc možno zakoupit virtuální realitu, také ve zkratce VR, která vás dokáže přenést do pomyslné reality. Her na virtuální realitu je nespočet, od obyčejné tzv. skákačky, přes různé 360° pohledy z celého světa až po propracované virtuální války nebo závody ve sportovních autech.</p>
+                <h2>Co to je Dualshock 4?</h2>
+                <p><b>DualShock 4</b> je ovladač pro konzoli PlayStation 4. Je podobný DualShocku 3 s několika novými funkcemi. Jednou z novinek je vestavěná dvoubodová kapacitní dotyková plocha na přední straně ovladače, na kterou lze kliknout. To umožňuje dotykové podložce reprezentovat více tlačítek, jak je ukázáno ve verzi Elite Dangerous pro PS4, ve které lze čtyři rohy dotykové podložky namapovat na samostatné klikací akce. Ovladač podporuje detekci pohybu prostřednictvím tříosého gyroskopu a tříosého akcelerometru a vibrací. Zahrnuje neodnímatelné, dobíjecí lithium-iontová baterie 3,7 V, kterou lze nabíjet, když je systém v klidovém režimu. Váží 210 g a má rozměry 162 mm × 52 mm × 98 mm (6,4 palce × 2,0 palce × 3,9 palce).</p>
+                <p></p>
+                <h2>Jak vypadá Playstation 4 a Dualshock 4?</h2>
+                <p>Vypadá nějak takto</p>
+                <img src="ps4.webp" alt="konzole">
+                <h2>O společnosti <a href="https://www.sony.net/">Sony Interactive Entertainment:</a></h2>
+                <p>Sony Interactive Entertainment (SIE), dříve známá jako Sony Computer Entertainment (SCE), je nadnárodní společnost pro videohry a digitální zábavu, kterou zcela vlastní japonský nadnárodní konglomerát Sony Group Corporation . Skupina SIE se skládá ze dvou právnických osob: Sony Interactive Entertainment LLC (SIE LLC) se sídlem v San Mateo, Kalifornie , Spojené státy americké, a Sony Interactive Entertainment Inc. (SIE Inc.), se sídlem v Minato, Tokio , Japonsko. Společnost SIE Inc. se sídlem v Tokiu byla původně založena jako Sony Computer Entertainment Inc.(SCEI nebo SCE) v listopadu 1993, aby se postarala o podnik Sony ve vývoji videoher pro systémy PlayStation . SIE LLC byla založena v San Mateo v dubnu 2016, a je řízena prostřednictvím americké pobočky Sony , Sony Corporation of America .</p>
+                <p>Od uvedení původní konzole PlayStation v roce 1994 společnost vyvíjí domácí videoherní konzole PlayStation, příslušenství a služby. Společnost expandovala z Japonska do Severní Ameriky a Evropy, kde v květnu 1995 založila pobočky Sony Computer Entertainment America (SCEA) (ve Foster City, Kalifornie ) a Sony Computer Entertainment Europe (SCEE) v červenci 1995 (v Liverpoolu).). Společnost se rychle stala hlavním zdrojem Sony pro výzkum a vývoj videoher a interaktivní zábavy. V dubnu 2016 byly SCE a Sony Network Entertainment International restrukturalizovány a reorganizovány na Sony Interactive Entertainment, čímž byly přeneseny operace a primární cíle obou společností. Ve stejném roce byla založena společnost SIE LLC se sídlem v San Mateo v Kalifornii.</p>
+                <p>Sony Interactive Entertainment se zabývá výzkumem a vývojem , výrobou a prodejem hardwaru i softwaru pro videoherní systémy PlayStation . SIE je také vývojář a vydavatel videoherních titulů a provozuje několik dceřiných společností na největších trzích Sony: Severní Amerika , Evropa a Asie . Do srpna 2018 společnost celosvětově prodala více než 525 milionů konzolí PlayStation.</p>
+                
+            </div>
+            <div id="pata">
+                Vytvořil David Švancar &COPY; 2021
+            </div>
+        </div>
+    </body>
+</html>
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nejlepší hry pro PlayStation 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="muj_styl1.css" rel="stylesheet" type="text/css">
+        <style>
+            .gow:hover{
+                opacity: 1;
+            }
+            .loup2:hover{
+                opacity: 1;
+            }
+            .s-mmm:hover{
+                opacity: 1;
+            }
+            .detroit:hover{
+                opacity: 1;
+            }
+            .gta5:hover{
+                opacity: 1;
+            }
+            .ac-valhalla:hover{
+                opacity: 1;
+            }
+            .gow{
+                border: 1px solid black;
+                width: 33.33%;
+                padding: 0.4em;
+                opacity: 0.8;
+            }
+            .loup2{
+                border: 1px solid black;
+                width: 33.33%;
+                padding: 0.4em;
+                opacity: 0.8;
+            }
+            .s-mmm{
+                border: 1px solid black;
+                width: 33.33%;
+                padding: 0.4em;
+                opacity: 0.8;
+            }
+            .detroit{
+                border: 1px solid black;
+                width: 33.33%;
+                padding: 0.4em;
+                opacity: 0.8;
+            }
+            .gta5{
+                border: 1px solid black;
+                width: 33.33%;
+                padding: 0.4em;
+                opacity: 0.8;
+            }
+            .ac-valhalla{
+                border: 1px solid black;
+                width: 33.33%;
+                padding: 0.4em;
+                opacity: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="hlava">             
+            </div>
+            <div class="neobtekat"></div>
+            <div class="uzky">
+                <ul>
+                    <li><a href="home.html">Domovská stránka</a></li>
+                    <li class="aktualni"><a href="akcni.html">Akční</a></li>
+                    <li><a href="strategie.html">Strategie</a></li>
+                    <li><a href="rpg.html">RPG</a></li>
+                    <li><a href="zavodni.html">Závodní</a></li>
+                    <li><a href="sportovni.html">Sportovní</a></li>
+                </ul> 
+            </div>
+            <div class="siroky">
+                <h1>Nejlepší hry pro <a href="https://www.playstation.com/">PlayStation 4</a></h1>
+                <div class="hry">
+                <div class="gow">
+                  <h2><a href="https://www.youtube.com/watch?v=CJ_GCPaKywg">God of war - PS4</a></h2>
+                  <p>Vývojář: <a href="https://sms.playstation.com/"><b>Santa Monica studio</b></a></p>
+                  <p>Datum vydání: 20. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="gow.webp" alt="hra">
+                  <p>O hře: God of War - čtvrtý díl pro PlayStation 4. O mnoho let později se Kratos pokusil najít klid na dalekém severu, kde se znovu oženil s ženou jménem Faye, s níž zplodil syna Átrea. Ovšem poté, co Faye umírá a její pozůstalí jsou napadení ásem Baldrem, musí se bránit proti útokům severských bohů, vedeným všeotcem Ódinem. Cílem jejich cesty je pak Jotunheim, kde musí bývalý bůh války rozprášit popel své druhé ženy, zatímco popel té první, jenž nosí stále na svém těle, musí se svou minulostí skrýt před synem Átreem. Dostává tedy druhou příležitost být otcem, kterým nedokázal být svému prvnímu dítěti.</p>
+                </div>
+                <div class="loup2">
+                  <h2><a href="https://www.youtube.com/watch?v=btmN-bWwv0A">The Last of Us Part II - PS4</a></h2>
+                  <p>Vývojář: <a href="https://www.naughtydog.com/"><b>Naughty Dog</b></a></p>
+                  <p>Datum vydání: 19. června 2020</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="loup2.webp" alt="hra">
+                  <p>O hře: Druhý díl The Last of Us začíná skoro až idylicky. Městečko Jackson vzkvétá, jeho obyvatelé mají relativně bezpečné útočiště a v rámci možností tu žijí vlastně spokojeně. Joel se usadil a z Ellie se po pár letech stala dospělá ženská. Dokonce se účastní hlídek v okolí, které mají Jackson chránit před nakaženými.</p> 
+                </div>
+                    <div class="s-mmm">
+                  <h2><a href="https://www.youtube.com/watch?v=NTunTURbyUU">Marvels Spider-Man: Miles Morales - PS4</a></h2>
+                  <p>Vývojář: <a href="https://insomniac.games/"><b>Insomniac games</b></a></p>
+                  <p>Datum vydání: 12. listopad 2020</p> 
+                  <p>Hodnocení: 9/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="s-mmm.webp" alt="hra">
+                  <p>O hře: Miles, který chce žít normální život, je nešťastný. Zpočátku mu není dobře při představě, že by měl nasazovat svůj život a předvádět hrdinské činy. Nicméně osudovým zlomem se stala smrt Spider-Mana - Petera Parkera. Mladý Miles Morales si uvědomí, že mu mohl pomoci a pocítil vinu za ztrátu jeho života.</p>
+                    </div>
+                    <div class="detroit">
+                  <h2><a href="https://www.youtube.com/watch?v=QD1pbWCJcKQ">Detroit Become Human - PS4</a></h2>
+                  <p>Vývojář: <a href="https://www.quanticdream.com/en"><b>Quantic Dream</b></a></p>
+                  <p>Datum vydání: 24. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="detroit.webp" alt="hra">
+                  <p>O hře: Detroit: Become Human je jako drahý hollywoodský blockbuster, jehož děj můžete sami ovlivňovat. Pokud dokážete občas přimhouřit oči nad dírami ve scénáři, nabídne vám fascinující zážitek, který by si měl prožít každý fanoušek sci-fi.</p>
+                </div>
+                    <div class="gta5">
+                  <h2><a href="https://www.youtube.com/watch?v=QkkoHAzjnUs">Grand Theft Auto V (GTA 5) - PS4</a></h2>
+                  <p>Vývojář: <a href="https://www.rockstargames.com/"><b>Rockstar games</b></a></p>
+                  <p>Datum vydání: 17. září 2013</p>
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ne</p>
+                  <img src="gta5.webp" alt="hra">
+                  <p>O hře: Příběh se odehrává v Los Santos – velkoměstě známém již ze hry Grand Theft Auto: San Andreas. Město se nachází ve fiktivním státě San Andreas. Hra má tři hlavní postavy – Michael, Trevor a Franklin, mezi nimiž si hráč bude moci přepínat.</p>
+                </div>
+                    <div class="ac-valhalla">
+                  <h2><a href="https://www.youtube.com/watch?v=ssrNcwxALS4">Assassins Creed Valhalla - PS4</a></h2>
+                  <p>Vývojář: <a href="https://www.ubisoft.com/en-us/"><b>Ubisoft</b></a></p>
+                  <p>Datum vydání: 10. listopadu 2020</p> 
+                  <p>Hodnocení: 8/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="ac-valhalla.webp" alt="hra">
+                  <p>O hře: Assassin's Creed: Valhalla je krvavá pouť vikingů. McDevitt zasadil události do roku 873, éry vikinských nájezdů do oblasti dnešní Anglie. Příběh vikinga Eivora přitom začíná velmi komorně, byť pracuje s řadou klišé a popkulturní představou o světě vikingů</p>
+                </div>
+                    </div>
+            </div>
+            <div id="pata">
+                Vytvořil David Švancar &COPY; 2021
+            </div>
+        </div>
+    </body>
+</html>
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nejlepší hry pro PlayStation 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="muj_styl1.css" rel="stylesheet" type="text/css">
+        <style>
+            .gow:hover{
+                opacity: 1;
+            }
+            .loup2:hover{
+                opacity: 1;
+            }
+            .s-mmm:hover{
+                opacity: 1;
+            }
+            .detroit:hover{
+                opacity: 1;
+            }
+            .gta5:hover{
+                opacity: 1;
+            }
+            .gow{
+                border: 1px solid black;
+                width: 33.33%;
+                padding: 0.4em;
+                opacity: 0.8;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="hlava">             
+            </div>
+            <div class="neobtekat"></div>
+            <div class="uzky">
+                <ul>
+                    <li><a href="home.html">Domovská stránka</a></li>
+                    <li><a href="akcni.html">Akční</a></li>
+                    <li class="aktualni"><a href="strategie.html">Strategie</a></li>
+                    <li><a href="rpg.html">RPG</a></li>
+                    <li><a href="zavodni.html">Závodní</a></li>
+                    <li><a href="sportovni.html">Sportovní</a></li>
+                </ul> 
+            </div>
+            <div class="siroky">
+                <h1>Nejlepší hry pro <a href="https://www.playstation.com/">PlayStation 4</a></h1>
+                <div class="hry">
+                <div class="gow">
+                  <h2><a href="https://www.youtube.com/watch?v=CJ_GCPaKywg">God of war - PS4</a></h2>
+                  <p>Vývojář: <a href="https://sms.playstation.com/"><b>Santa Monica studio</b></a></p>
+                  <p>Datum vydání: 20. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="gow.webp" alt="hra">
+                  <p>O hře: God of War - čtvrtý díl pro PlayStation 4. O mnoho let později se Kratos pokusil najít klid na dalekém severu, kde se znovu oženil s ženou jménem Faye, s níž zplodil syna Átrea. Ovšem poté, co Faye umírá a její pozůstalí jsou napadení ásem Baldrem, musí se bránit proti útokům severských bohů, vedeným všeotcem Ódinem. Cílem jejich cesty je pak Jotunheim, kde musí bývalý bůh války rozprášit popel své druhé ženy, zatímco popel té první, jenž nosí stále na svém těle, musí se svou minulostí skrýt před synem Átreem. Dostává tedy druhou příležitost být otcem, kterým nedokázal být svému prvnímu dítěti.</p>
+                </div>
+                    <div class="gow">
+                  <h2><a href="https://www.youtube.com/watch?v=CJ_GCPaKywg">God of war - PS4</a></h2>
+                  <p>Vývojář: <a href="https://sms.playstation.com/"><b>Santa Monica studio</b></a></p>
+                  <p>Datum vydání: 20. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="gow.webp" alt="hra">
+                  <p>O hře: God of War - čtvrtý díl pro PlayStation 4. O mnoho let později se Kratos pokusil najít klid na dalekém severu, kde se znovu oženil s ženou jménem Faye, s níž zplodil syna Átrea. Ovšem poté, co Faye umírá a její pozůstalí jsou napadení ásem Baldrem, musí se bránit proti útokům severských bohů, vedeným všeotcem Ódinem. Cílem jejich cesty je pak Jotunheim, kde musí bývalý bůh války rozprášit popel své druhé ženy, zatímco popel té první, jenž nosí stále na svém těle, musí se svou minulostí skrýt před synem Átreem. Dostává tedy druhou příležitost být otcem, kterým nedokázal být svému prvnímu dítěti.</p>
+                </div>
+                    <div class="gow">
+                  <h2><a href="https://www.youtube.com/watch?v=CJ_GCPaKywg">God of war - PS4</a></h2>
+                  <p>Vývojář: <a href="https://sms.playstation.com/"><b>Santa Monica studio</b></a></p>
+                  <p>Datum vydání: 20. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="gow.webp" alt="hra">
+                  <p>O hře: God of War - čtvrtý díl pro PlayStation 4. O mnoho let později se Kratos pokusil najít klid na dalekém severu, kde se znovu oženil s ženou jménem Faye, s níž zplodil syna Átrea. Ovšem poté, co Faye umírá a její pozůstalí jsou napadení ásem Baldrem, musí se bránit proti útokům severských bohů, vedeným všeotcem Ódinem. Cílem jejich cesty je pak Jotunheim, kde musí bývalý bůh války rozprášit popel své druhé ženy, zatímco popel té první, jenž nosí stále na svém těle, musí se svou minulostí skrýt před synem Átreem. Dostává tedy druhou příležitost být otcem, kterým nedokázal být svému prvnímu dítěti.</p>
+                </div>
+                    <div class="gow">
+                  <h2><a href="https://www.youtube.com/watch?v=CJ_GCPaKywg">God of war - PS4</a></h2>
+                  <p>Vývojář: <a href="https://sms.playstation.com/"><b>Santa Monica studio</b></a></p>
+                  <p>Datum vydání: 20. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="gow.webp" alt="hra">
+                  <p>O hře: God of War - čtvrtý díl pro PlayStation 4. O mnoho let později se Kratos pokusil najít klid na dalekém severu, kde se znovu oženil s ženou jménem Faye, s níž zplodil syna Átrea. Ovšem poté, co Faye umírá a její pozůstalí jsou napadení ásem Baldrem, musí se bránit proti útokům severských bohů, vedeným všeotcem Ódinem. Cílem jejich cesty je pak Jotunheim, kde musí bývalý bůh války rozprášit popel své druhé ženy, zatímco popel té první, jenž nosí stále na svém těle, musí se svou minulostí skrýt před synem Átreem. Dostává tedy druhou příležitost být otcem, kterým nedokázal být svému prvnímu dítěti.</p>
+                </div>
+                    <div class="gow">
+                  <h2><a href="https://www.youtube.com/watch?v=CJ_GCPaKywg">God of war - PS4</a></h2>
+                  <p>Vývojář: <a href="https://sms.playstation.com/"><b>Santa Monica studio</b></a></p>
+                  <p>Datum vydání: 20. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="gow.webp" alt="hra">
+                  <p>O hře: God of War - čtvrtý díl pro PlayStation 4. O mnoho let později se Kratos pokusil najít klid na dalekém severu, kde se znovu oženil s ženou jménem Faye, s níž zplodil syna Átrea. Ovšem poté, co Faye umírá a její pozůstalí jsou napadení ásem Baldrem, musí se bránit proti útokům severských bohů, vedeným všeotcem Ódinem. Cílem jejich cesty je pak Jotunheim, kde musí bývalý bůh války rozprášit popel své druhé ženy, zatímco popel té první, jenž nosí stále na svém těle, musí se svou minulostí skrýt před synem Átreem. Dostává tedy druhou příležitost být otcem, kterým nedokázal být svému prvnímu dítěti.</p>
+                </div>
+                    <div class="gow">
+                  <h2><a href="https://www.youtube.com/watch?v=CJ_GCPaKywg">God of war - PS4</a></h2>
+                  <p>Vývojář: <a href="https://sms.playstation.com/"><b>Santa Monica studio</b></a></p>
+                  <p>Datum vydání: 20. dubna 2018</p> 
+                  <p>Hodnocení: 10/10</p>
+                  <p>České titulky: ano</p>
+                  <img src="gow.webp" alt="hra">
+                  <p>O hře: God of War - čtvrtý díl pro PlayStation 4. O mnoho let později se Kratos pokusil najít klid na dalekém severu, kde se znovu oženil s ženou jménem Faye, s níž zplodil syna Átrea. Ovšem poté, co Faye umírá a její pozůstalí jsou napadení ásem Baldrem, musí se bránit proti útokům severských bohů, vedeným všeotcem Ódinem. Cílem jejich cesty je pak Jotunheim, kde musí bývalý bůh války rozprášit popel své druhé ženy, zatímco popel té první, jenž nosí stále na svém těle, musí se svou minulostí skrýt před synem Átreem. Dostává tedy druhou příležitost být otcem, kterým nedokázal být svému prvnímu dítěti.</p>
+                </div>
+                </div>
+            </div>
+            <div id="pata">
+                Vytvořil David Švancar &COPY; 2021
+            </div>
+        </div>
+    </body>
+</html>
+
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________-
+

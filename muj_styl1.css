@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', serif;
+}
+
+#container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-color: 3px solid navy;
+    padding-left: 2px;
+    
+}
+
+body{
+    background:  url("psbody.webp");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.neobtekat{
+    clear: both;
+}
+img{
+    width: 220px;
+    
+    padding-left: 10px;
+}
+.logo{
+    width: 7%;
+    
+    transition: 0.3s;  
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    padding-right: 12px;
+}
+.logo:hover{
+    
+    transition: 0.3s;
+}
+.uzky{
+    width: 200px;
+}
+.aktualni{
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 115%;
+    background-color: whitesmoke;
+
+}
+.siroky{
+    width:1000px;
+    padding:1em;
+    text-align: justify;
+    
+}
+h4{
+    
+    font-size: 115%;
+    cursor: default;
+    transition: 0.3s;
+}
+h4:hover{
+    color: navy;
+    text-shadow:  2px 2px 50px grey;
+    transition: 0.3s;
+}
+.konzole{
+    border: 3px solid navy;
+    box-shadow: 1px 9px 15px darkslateblue;
+    background-color: ghostwhite;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 0.5em;
+    
+}
+.konzole h2{
+    text-transform: uppercase;
+}
+.oba{
+    border: 1px solid navy;
+   padding: 6px;
+   border-radius: 5px;
+   background-color: white;
+   box-shadow: 2px 4px 1px navy;
+}
+.ps{
+   padding-left: 1em;
+   border: 1px solid navy;
+   padding: 6px;
+   border-radius: 5px;
+   background-color: white;
+   box-shadow: 2px 4px 1px navy;
+}
+.hry{
+    display: flex;
+    border: 1px solid navy;
+    flex-wrap: wrap;
+    align-items: stretch;
+    box-shadow: 1px 9px 15px darkslateblue;
+    background-color: white;
+    
+}
+.hry div{
+    background-color: white;
+}
+.hry p{
+    background-color: white;
+}
+p, div{
+    background-color: ghostwhite;
+    
+}
+.hry h2:hover{
+    text-decoration: underline;
+}
+p{
+    font-size: 110%;
+}
+h1{
+    background-color: ghostwhite;
+    box-shadow: 3px 6px 1px navy;
+    text-decoration: underline;
+    color: black;
+    text-transform: uppercase;
+    cursor: default;
+    font-size: 225%;
+    font-weight: 900;
+    text-shadow:  2px 2px 1px lightskyblue;
+    margin-bottom: 50px;
+    margin-top: 0; 
+    border: 1px double navy;
+    border-radius: 5px;
+    padding: 0.6em;
+    position: sticky;
+    top: 1px;
+    z-index: 10;
+    text-indent: 30px;
+    
+}
+h1:hover{
+    color: navy;
+    /*text-shadow:  2px 2px 7px grey;*/
+    transition: 0.3s;
+}
+h2:hover{
+    color: navy;
+    text-shadow:  2px 2px 50px grey;
+    transition: 0.3s;
+    
+}
+h2{
+    cursor: default;
+    text-align: left;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 150%;
+}
+h3{
+    color: navy;
+    font-size: 160%;
+    font-weight: bolder;
+    text-decoration: underline;
+    transition: 0.3s;
+    cursor: default;
+}
+h3:hover{
+    text-shadow:  2px 2px 50px grey;
+    transition: 0.3s;
+}
+.ozanru{
+    font-size: 120%;
+}
+.siroky a{
+    text-decoration: none;
+    color: navy;
+}
+.uzky a{
+    display: block;
+    text-decoration: none;
+    color: navy;
+    
+    background-color: ghostwhite;
+    padding: 0.5em;
+    padding-right: 50px;
+    margin: 2px;
+    border: 1px solid black;
+    border-left: 4px solid navy;
+    border-top: 4px solid navy;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    
+}
+.uzky a:hover{
+    background-color: lightskyblue;
+    color: black;
+    border: 1px solid darkslateblue;
+    border-left: 3px solid navy;
+    border-top: 3px solid navy;
+    opacity: 0.8;
+    font-weight: bold;
+    transition: 0.3s;
+    padding-left: 20px;
+    font-size: 100%;
+}
+li{
+    font-size: 110%;
+}
+.uzky ul{
+    list-style-type: none;               
+    padding-left: 0;
+    /*position: fixed;*/
+    /*width: 15%;*/
+    position: sticky;
+    top: 1px;
+    flex-basis: 25%;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+.uzky ul:hover{
+    list-style-type: none;               
+    padding-left: 0;
+    /*position: fixed;*/
+   /* width: 15%;*/
+    position: sticky;
+    top: 1px;
+    flex-basis: 25%;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+
